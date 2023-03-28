@@ -104,7 +104,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="py-9 flex justify-center items-center bg-simple">
+            <div className="py-9 flex justify-center items-center bg-simple px-3 text-center">
                 <p className="text-sm text-text">
                     Copyright © 2020 . Your company name  All rights reserved
                 </p>

@@ -8,7 +8,8 @@ import Header from "./components/header";
 
 const LandingLayout = () => {
     return ( 
-        <div className="h-screen overflow-y-scroll rounded-[50px]">
+        //  lg:rounded-[50px]
+        <div className="h-screen overflow-y-scroll">
             <Header />
 
                 <Hero />

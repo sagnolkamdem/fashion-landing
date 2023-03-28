@@ -5,9 +5,9 @@ import right from '../../assets/right-girl.png';
 
 const Gallery = () => {
     return ( 
-        <div className="w-full bg-white py-28 justify-center max-lg:pb-[700px] max-sm:pb-0">
+        <div className="w-full bg-white py-28 justify-center">
             <div className="grid max-xl:px-10 max-sm:p-4 lg:grid-cols-2 max-lg:px-10 max-w-fit max-h-[574px] gap-7 mx-auto">
-                <div className="max-w-[552px] grid grid-rows-2 gap-5">
+                <div className="max-w-[552px] grid grid-rows-2 gap-5 max-lg:hidden">
                     <div className="">
                         <img className='object-fit' src={guys} alt="guy" />
                     </div>
